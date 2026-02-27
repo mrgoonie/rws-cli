@@ -1,11 +1,14 @@
-# rws-cli
+# reviewweb-cli
+
+[![npm version](https://img.shields.io/npm/v/reviewweb-cli.svg)](https://www.npmjs.com/package/reviewweb-cli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Command-line interface for [ReviewWeb.site](https://reviewweb.site) API. Create website reviews, scrape content, extract data, get SEO insights, and more.
 
 ## Installation
 
 ```bash
-npm install -g rws-cli
+npm install -g reviewweb-cli
 ```
 
 ## Quick Start
