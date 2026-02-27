@@ -1,5 +1,5 @@
 {
-  "name": "rws-cli",
+  "name": "reviewweb-cli",
   "version": "1.0.0",
   "description": "CLI tool for ReviewWeb.site API - create reviews, scrape websites, extract data, SEO insights and more",
   "main": "dist/index.js",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrgoonie/reviewwebsite-cli"
+    "url": "https://github.com/mrgoonie/rws-cli"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -54,6 +54,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.15.3",
+    "dotenv": "^17.2.3",
     "eslint": "^9.26.0",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3",
