@@ -148,3 +148,11 @@ export interface HealthResponse {
   version?: string;
   timestamp?: string;
 }
+
+export interface HtmlToScreenshotResponse {
+  success: boolean;
+  message: string;
+  data: {
+    imageUrl: string;
+  };
+}

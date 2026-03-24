@@ -13,6 +13,7 @@ import { summarizeCommand } from './commands/summarize/index.js';
 import { seoCommand } from './commands/seo/index.js';
 import { apiKeyCommand } from './commands/api-key/index.js';
 import { screenshotCommand } from './commands/screenshot-capture-url-command.js';
+import { htmlToScreenshotCommand } from './commands/html-to-screenshot-convert-html-to-image-command.js';
 import { urlCheckCommand } from './commands/url-check-is-alive-command.js';
 import { profileCommand } from './commands/profile-get-current-user-command.js';
 import { healthCommand } from './commands/health-check-api-status-command.js';
@@ -33,6 +34,7 @@ program
   .addCommand(seoCommand)
   .addCommand(apiKeyCommand)
   .addCommand(screenshotCommand)
+  .addCommand(htmlToScreenshotCommand)
   .addCommand(urlCheckCommand)
   .addCommand(profileCommand)
   .addCommand(healthCommand)

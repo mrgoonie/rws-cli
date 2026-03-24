@@ -49,10 +49,12 @@
     "cli-table3": "^0.6.5",
     "commander": "^13.1.0",
     "conf": "^13.1.0",
+    "form-data": "^4.0.5",
     "ora": "^8.2.0",
     "zod": "^3.24.3"
   },
   "devDependencies": {
+    "@types/form-data": "^2.2.1",
     "@types/node": "^22.15.3",
     "dotenv": "^17.2.3",
     "eslint": "^9.26.0",
