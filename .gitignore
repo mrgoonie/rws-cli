@@ -25,3 +25,7 @@ coverage/
 .env
 .env.local
 .env.*.local
+.env.test
+
+# Claude Code local state
+.claude/
