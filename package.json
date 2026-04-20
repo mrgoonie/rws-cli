@@ -44,6 +44,7 @@
     "README.md"
   ],
   "dependencies": {
+    "adm-zip": "^0.5.17",
     "axios": "^1.7.9",
     "chalk": "^5.4.1",
     "cli-table3": "^0.6.5",
@@ -54,6 +55,7 @@
     "zod": "^3.24.3"
   },
   "devDependencies": {
+    "@types/adm-zip": "^0.5.8",
     "@types/form-data": "^2.2.1",
     "@types/node": "^22.15.3",
     "dotenv": "^17.2.3",
